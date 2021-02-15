@@ -70,6 +70,18 @@ hr{
     display: block;
 }
 
+#main-image-caption{
+    width:100%;
+    max-width:1200px;
+    margin:auto;
+    display:block;
+}
+
+#video{
+    margin:auto;
+    display:block;
+}
+
 .figure-caption {
     font-size: 0.93rem;
     line-height: 1.25rem;
