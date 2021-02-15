@@ -40,6 +40,7 @@ article{
     font-weight: 700;
     font-style: italic;
     padding-bottom: 20px;
+    padding-top: 40px;
 }
 
 .author{
@@ -67,4 +68,22 @@ hr{
     max-width: 1200px;
     margin: auto;
     display: block;
+}
+
+.figure-caption {
+    font-size: 0.93rem;
+    line-height: 1.25rem;
+    color: #666;
+    font-family: nyt-imperial,georgia,'times new roman',times,serif;
+    text-align: left;
+}
+
+.photographer-info {
+    color: #888;
+    letter-spacing: 0.01em;
+    text-align: left;
+    line-height: 1.125rem;
+    font-family: nyt-imperial,georgia,'times new roman',times,serif;
+    font-size: 0.75rem;
+
 }
