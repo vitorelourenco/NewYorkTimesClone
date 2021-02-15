@@ -1,0 +1,24 @@
+.article-text-box{
+    width:100%;
+    max-width:600px;
+    margin:auto;
+}
+
+.author{
+    font-weight: bold;
+}
+
+hr{
+    color:dimgrey;
+    opacity: 10%;
+}
+
+#fixed-footer{
+    position: fixed;
+    top: 100vh;
+    margin-top: -50px;
+    border-top: 1px solid black;
+    background: white;
+    width:100%;
+    padding-left:10px;
+}
