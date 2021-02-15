@@ -1,5 +1,5 @@
 body{
-    margin:0px;
+    margin: 40px 0px 0px 0px;
 }
 
 article{
@@ -8,12 +8,38 @@ article{
 
 #nav-bar{
     position:fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background:white;
+    border-bottom: 1px solid #e2e2e2;
+    width: 100%;
+    height: 40px;
+    margin-top: -40px;
 }
+
 
 .article-text-box{
     width:100%;
     max-width:600px;
     margin:auto;
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+    color: #333;
+    font-family: nyt-imperial,georgia,'times new roman',times,serif;
+    margin-bottom: 0.9375rem;
+}
+
+.main-article-title{
+    border-bottom: 1px solid #e2e2e2;
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+    line-height: 3rem;
+    color: #121212;
+    font-family: nyt-cheltenham,georgia,'times new roman',times,serif;
+    font-weight: 700;
+    font-style: italic;
+    padding-bottom: 20px;
 }
 
 .author{
