@@ -125,3 +125,8 @@ hr{
     width: 100%;
     max-width: 600px;
 }
+
+#aside-editors-picks{
+    float: right;
+    width: 200px;
+}
