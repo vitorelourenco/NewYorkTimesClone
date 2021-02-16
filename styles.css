@@ -2,6 +2,12 @@ body{
     margin: 40px 0px 50px 0px;
 }
 
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 article{
     width:100%
 }
@@ -18,9 +24,6 @@ article{
     margin-top: -40px;
 }
 
-
-
-
 .social-media-icon{
     background: #eee;
     border-radius: 100%;
@@ -33,7 +36,6 @@ article{
 .article-text-box{
     width:100%;
     max-width:600px;
-    margin:auto;
     font-size: 1.25rem;
     line-height: 1.875rem;
     color: #333;
@@ -91,15 +93,17 @@ hr{
     width: 100%;
     height:auto;
     max-width: 1200px;
-    margin: auto;
     display: block;
 }
 
-#image-caption{
-    width:100%;
+#main-figure {
+    width: 100%;
+    height:auto;
     max-width:1200px;
-    margin:auto;
-    display:block;
+}
+
+.caption-box{
+    padding: 0 10px 0 10px;
 }
 
 .figure-caption {
@@ -140,8 +144,6 @@ hr{
     margin:auto;
     display: block;
 }
-
-
 
 #aside-editors-picks{
     float: right;
