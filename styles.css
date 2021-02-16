@@ -153,9 +153,10 @@ article {
 .inner-grid{
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: auto auto;
+    grid-template-rows: auto auto auto;
     align-items: start;
     height: 100%;
+    padding: 15px
 }
 
 .foot-link{
@@ -181,8 +182,8 @@ article {
 
 .grid-left-subgrid {
   display: grid;
-  grid-template-columns: 260px 260px 260px;
-  grid-template-rows: 50px 260px;
+  grid-template-columns: 250px 250px 250px;
+  grid-template-rows: 50px 280px;
   grid-gap: 10px 10px;
   border-top: 1px solid black;
 }
@@ -209,9 +210,26 @@ article {
   height: 100%;
   width: 100%;
   border: 1px solid #e2e2e2;
-  margin: 10px;
 }
 
-#most-popular-links{
-  margin:25px;
+#most-popular-links {
+  margin: 25px;
+}
+
+.image-block {
+  display: block;
+}
+
+.float-right {
+  float: right;
+}
+
+.small-text {
+  margin: 0px;
+  padding-left: 0px;
+  padding-right: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 15px;
+  line-height: 15px;
 }
