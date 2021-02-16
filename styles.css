@@ -41,6 +41,7 @@ article{
     color: #333;
     font-family: nyt-imperial,georgia,'times new roman',times,serif;
     margin-bottom: 0.9375rem;
+    padding: 0 10px 0 10px;
 }
 
 .article-footer{
@@ -73,11 +74,6 @@ article{
     font-weight: bold;
 }
 
-hr{
-    color:dimgrey;
-    opacity: 10%;
-}
-
 #fixed-footer{
     position: fixed;
     top: 100vh;
@@ -100,6 +96,7 @@ hr{
     width: 100%;
     height:auto;
     max-width:1200px;
+    display: block;
 }
 
 .caption-box{
@@ -148,4 +145,37 @@ hr{
 #aside-editors-picks{
     float: right;
     width: 200px;
+}
+
+#grid-other-articles{
+    display:grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto;
+    background:blue;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+#grid-right{
+    grid-row: 1/4;
+    grid-column: 2/3;
+}
+
+.grid-left-subgrid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    grid-gap: 10px 10px;
+    background: red;
+}
+
+.subgrid-header{
+    grid-row: 1/2;
+    grid-column: 1/4;
+}
+
+.grid-article-link-box{
+    border-top: 1px solid black;
+    padding: 10px;
+
 }
