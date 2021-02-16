@@ -154,6 +154,7 @@ article {
   grid-template-rows: auto auto auto;
   margin-left: 15%;
   margin-right: 15%;
+  grid-gap: 30px 30px;
 }
 
 #grid-right {
@@ -164,10 +165,11 @@ article {
 
 .grid-left-subgrid {
   display: grid;
-  grid-template-columns: auto auto auto;
-  grid-template-rows: auto auto;
+  grid-template-columns: 260px 260px 260px;
+  grid-template-rows: 50px 300px;
   grid-gap: 10px 10px;
   border-top: 1px solid black;
+  align-items: center;
 }
 
 .subgrid-header {
@@ -182,7 +184,7 @@ article {
 
 .grid-image {
   width: 250px;
-  height: auto;
+  height: 167px;
   display: block;
 }
 
