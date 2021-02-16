@@ -166,7 +166,7 @@ article {
 .grid-left-subgrid {
   display: grid;
   grid-template-columns: 260px 260px 260px;
-  grid-template-rows: 50px 300px;
+  grid-template-rows: 50px 260px;
   grid-gap: 10px 10px;
   border-top: 1px solid black;
   align-items: center;
@@ -189,5 +189,8 @@ article {
 }
 
 .grid-box {
-  max-width: 260px;
+  height: 100%;
+  width: 100%;
+  border: 1px solid #e2e2e2;
+  margin: 10px;
 }
