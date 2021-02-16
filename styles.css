@@ -19,6 +19,8 @@ article{
 }
 
 
+
+
 .social-media-icon{
     background: #eee;
     border-radius: 100%;
@@ -39,6 +41,13 @@ article{
     margin-bottom: 0.9375rem;
 }
 
+.article-footer{
+    font-family: nyt-franklin, helvetica, arial, sans-serif;
+    font-size: 0.75rem;
+    line-height:1rem;
+    color: rgb(102, 102, 102);
+}
+
 .main-article-title{
     border-bottom: 1px solid #e2e2e2;
     margin-bottom: 20px;
@@ -50,6 +59,12 @@ article{
     font-style: italic;
     padding-bottom: 20px;
     padding-top: 40px;
+}
+
+.main-article-chapter{
+    color: #333;
+    font-weight: 700;
+    display: block;
 }
 
 .author{
@@ -79,14 +94,9 @@ hr{
     display: block;
 }
 
-#main-image-caption{
+#image-caption{
     width:100%;
     max-width:1200px;
-    margin:auto;
-    display:block;
-}
-
-#video{
     margin:auto;
     display:block;
 }
@@ -99,7 +109,7 @@ hr{
     text-align: left;
 }
 
-.photographer-info {
+.image-rights-info {
     color: #888;
     letter-spacing: 0.01em;
     text-align: left;
@@ -107,4 +117,11 @@ hr{
     font-family: nyt-imperial,georgia,'times new roman',times,serif;
     font-size: 0.75rem;
 
+}
+
+#figure-video-1{
+    margin: auto;
+    display: block;
+    width: 100%;
+    max-width: 600px;
 }
