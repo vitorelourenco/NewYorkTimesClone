@@ -126,6 +126,22 @@ hr{
     max-width: 600px;
 }
 
+#figure-2{
+    margin: auto;
+    display: block;
+    width: 100%;
+    max-width: 720px;
+}
+
+#figure-2-caption{
+    width:100%;
+    max-width:720px;
+    margin:auto;
+    display: block;
+}
+
+
+
 #aside-editors-picks{
     float: right;
     width: 200px;
