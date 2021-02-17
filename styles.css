@@ -252,6 +252,17 @@ article {
   float: left;
 }
 
+.footer-column a {
+  font-size: 12px;
+  display: block;
+  padding-top: 10px;
+}
+
+.footer-column-right a {
+  display: block;
+  padding-top: 10px;
+}
+
 .inner-grid {
   display: grid;
   grid-template-columns: 1fr;
@@ -266,13 +277,9 @@ article {
   text-decoration: none;
 }
 
-.inner-grid a:active, 
+.inner-grid a:active,
 .inner-grid div a:hover {
   text-decoration: underline;
-}
-
-.inner-grid div a {
-  color: rgb(50, 104, 145);
 }
 
 .inner-grid strong {
@@ -411,17 +418,6 @@ article {
   padding-bottom: 5px;
   font-size: 12px;
   line-height: 15px;
-}
-
-.footer-column a {
-  font-size: 12px;
-  display: block;
-  padding-top: 10px;
-}
-
-.footer-column-right a {
-  display:block;
-  padding-top: 10px;
 }
 
 .footer-bold-link {
