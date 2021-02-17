@@ -19,6 +19,10 @@ main figure {
   margin-bottom: 50px;
 }
 
+article {
+  width: 100%;
+}
+
 .nav-buttons {
   background: rgb(86, 123, 149);
   color: white;
@@ -32,18 +36,14 @@ main figure {
   border-radius: 5px;
 }
 
-article {
-  width: 100%;
+.padding-left {
+  padding-left: 20px;
 }
 
 #nav-left {
   width: 400px;
   flex-grow: 0;
   text-align: right;
-}
-
-.padding-left {
-  padding-left: 20px;
 }
 
 #nav-right {
