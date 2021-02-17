@@ -58,8 +58,8 @@ article {
 }
 
 #nav-bar {
-  position: fixed;
   display: flex;
+  position: fixed;
   flex-direction: row;
   justify-content: space-around;
   background: white;
@@ -273,7 +273,14 @@ article {
   text-decoration: underline;
 }
 
+.inner-grid strong{
+  font-weight: bold;
+  font-size: 16px;
+}
 
+.inner-grid span{
+  font-size: 14px;
+}
 
 .foot-link {
   align-self: end;
@@ -296,8 +303,6 @@ article {
 #grid-other-articles a:hover, #grid-other-articles a:active{
   color: #333;
 }
-
-
 
 #grid-right {
   border-top: 1px solid black;
@@ -403,7 +408,7 @@ article {
   padding-right: 5px;
   padding-top: 5px;
   padding-bottom: 5px;
-  font-size: 15px;
+  font-size: 12px;
   line-height: 15px;
 }
 
@@ -463,3 +468,31 @@ article {
   font-weight: bold;
 }
 
+#bottom-social-media{
+  width: 100%;
+  max-width: 600px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 70px;
+}
+
+.comment-button{
+  background: rgb(86, 123, 149);
+  color: white;
+  font-weight: bold;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top: 5px;
+  padding-bottom: 3px;
+  font-size: 13px;
+  border: 5px solid rgb(86, 123, 149);
+  border-radius: 5px;
+  width: 350px;
+  height: 40px;
+}
+
+#comment-icon{
+  position: relative;
+  top: 6px;
+  left: 14px;
+}
