@@ -277,6 +277,20 @@ article {
   grid-column: 2/3;
 }
 
+#footer-grid{
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: 100px auto;
+  margin-left: 15%;
+  margin-right: 15%;
+  grid-gap: 30px 30px;
+}
+
+#footer-grid-header{
+  grid-row: 1/2;
+  grid-column:1/7;
+}
+
 .grid-left-subgrid {
   display: grid;
   grid-template-columns: 250px 250px 250px;
@@ -329,4 +343,10 @@ article {
   padding-bottom: 5px;
   font-size: 15px;
   line-height: 15px;
+}
+
+.footer-column a{
+  font-size: 12px;
+  display: block;
+  padding-top: 10px;
 }
