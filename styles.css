@@ -1,3 +1,9 @@
+@font-face {
+  font-family: "Chomsky";
+  src: url("assets/fonts/Chomsky.woff") format("woff");
+}
+
+
 body {
   margin-top: 40px;
   margin-bottom: 50px;
@@ -62,14 +68,18 @@ article {
   align-items: center;
 }
 
+#main-editors-pick{
+  align-self: stretch;
+}
 
 .social-media-icon {
   background: #eee;
   border-radius: 100%;
   border: 1px #eee solid;
-  padding: 5px;
+  padding:5px;
   height: 15px;
   width: 15px;
+  margin-right: 15px;
 }
 
 .article-text-box {
@@ -80,7 +90,7 @@ article {
   font-size: 1.25rem;
   line-height: 1.875rem;
   color: #333;
-  font-family: nyt-imperial, georgia, 'times new roman', times, serif;
+  font-family: Chomsky, nyt-imperial, georgia, 'times new roman', times, serif;
   margin-bottom: 0.9375rem;
   padding: 0 10px 0 10px;
 }
@@ -163,7 +173,7 @@ article {
 }
 
 #figure-video-1 {
-  margin: auto;
+  margin: 30px auto 30px auto;
   display: block;
   width: 100%;
   max-width: 600px;
@@ -185,7 +195,38 @@ article {
 
 #aside-editors-picks {
   float: right;
-  width: 200px;
+  width: 210px;
+  margin-right: 200px;
+}
+
+#editor-pick-header {
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-weight: 700;
+  color: rgb(0, 0, 0);
+  border-bottom: 1px solid rgb(226, 226, 226);
+  margin-top: 0px;
+  margin-bottom: 15px;
+  padding-bottom: 12px;
+  font-size: 14px;
+  line-height: 14px;
+  letter-spacing: 0.02em;
+}
+
+.editor-pick-item {
+  height:100px;
+  font-size: 0.95rem;
+  line-height: 1.1rem;
+  color: #333;
+  font-family: nyt-imperial, georgia, 'times new roman', times, serif;
+  display: flex;
+  align-items: center;
+}
+
+.tiny-image{
+  max-width: 80px;
+  margin-right: 10px;
+  height: auto;
+  float: left;
 }
 
 .inner-grid{
