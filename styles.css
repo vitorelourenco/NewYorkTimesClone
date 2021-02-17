@@ -75,6 +75,8 @@ article {
 .article-text-box {
   width: 100%;
   max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
   font-size: 1.25rem;
   line-height: 1.875rem;
   color: #333;
@@ -198,8 +200,6 @@ article {
 .foot-link{
     align-self: end;
 }
-
-
 
 #grid-other-articles {
   display: grid;
