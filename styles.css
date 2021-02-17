@@ -273,12 +273,12 @@ article {
 }
 
 .inner-grid a:visited,
-.inner-grid div a:link {
+.inner-grid a:link {
   text-decoration: none;
 }
 
 .inner-grid a:active,
-.inner-grid div a:hover {
+.inner-grid a:hover {
   text-decoration: underline;
 }
 
@@ -388,7 +388,7 @@ article {
 
 .grid-image {
   width: 100%;
-  height: calc(100%/ 1.4);
+  height: calc(100% / 1.4);
   display: block;
   margin-bottom: 20px;
 }
