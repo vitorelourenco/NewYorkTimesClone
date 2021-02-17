@@ -14,6 +14,11 @@ main {
   align-items: center;
 }
 
+main figure {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
 .nav-buttons {
   background: rgb(86, 123, 149);
   color: white;
@@ -256,6 +261,20 @@ article {
   padding: 15px;
 }
 
+.inner-grid div a{
+  color: rgb(50, 104, 145);
+}
+
+.inner-grid div a:link, .inner-grid a:visited {
+  text-decoration:none;
+}
+
+.inner-grid div a:hover, .inner-grid a:active {
+  text-decoration: underline;
+}
+
+
+
 .foot-link {
   align-self: end;
 }
@@ -268,6 +287,17 @@ article {
   margin-right: 15%;
   grid-gap: 30px 30px;
 }
+
+#grid-other-articles a:link, #grid-other-articles a:visited{
+  color: black;
+  text-decoration: none;
+}
+
+#grid-other-articles a:hover, #grid-other-articles a:active{
+  color: #333;
+}
+
+
 
 #grid-right {
   border-top: 1px solid black;
@@ -315,11 +345,16 @@ article {
 #footer-grids-footer {
   grid-row: 3/4;
   grid-column: 1/7;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  font-size: 11px;
+  color: rgb(51, 51, 51);
 }
 
 .grid-left-subgrid {
   display: grid;
-  grid-template-columns: 250px 250px 250px;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 50px 280px;
   grid-gap: 10px 10px;
   border-top: 1px solid black;
@@ -334,13 +369,15 @@ article {
 
 .grid-article-link-box {
   border-top: 1px solid #e2e2e2;
-  padding: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .grid-image {
-  width: 250px;
-  height: 167px;
+  width: 100%;
+  height: calc(100%/1.4);
   display: block;
+  margin-bottom: 20px;
 }
 
 .grid-box {
@@ -350,7 +387,8 @@ article {
 }
 
 #most-popular-links {
-  margin: 25px;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 
 .image-block {
@@ -400,11 +438,12 @@ article {
 }
 
 #inflation-flexbox {
-  max-width: 1200px;
+  max-width: 1000px;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-between;
+  margin: 50px;
 }
 
 #inflation-flexbox header{
@@ -414,5 +453,13 @@ article {
 
 #inflation-flexbox figure {
   max-width: 228px;
+}
+
+#inflation-flexbox figure figcaption span{
+  font-size: 12px;
+}
+
+#inflation-flexbox figure figcaption span strong{
+  font-weight: bold;
 }
 
