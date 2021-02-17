@@ -261,10 +261,6 @@ article {
   padding: 15px;
 }
 
-.inner-grid div a {
-  color: rgb(50, 104, 145);
-}
-
 .inner-grid a:visited,
 .inner-grid div a:link {
   text-decoration: none;
@@ -273,6 +269,10 @@ article {
 .inner-grid a:active, 
 .inner-grid div a:hover {
   text-decoration: underline;
+}
+
+.inner-grid div a {
+  color: rgb(50, 104, 145);
 }
 
 .inner-grid strong {
@@ -325,7 +325,7 @@ article {
 
 #footer-grid a:link {
   text-decoration: none;
-  color: inherti;
+  color: inherit;
 }
 
 #footer-grid a:visited {
@@ -342,9 +342,6 @@ article {
   color: inherit;
   text-decoration: underline;
 }
-
-
-
 
 #footer-grid-header {
   grid-row: 1/2;
@@ -384,7 +381,7 @@ article {
 
 .grid-image {
   width: 100%;
-  height: calc(100%/1.4);
+  height: calc(100%/ 1.4);
   display: block;
   margin-bottom: 20px;
 }
@@ -455,7 +452,7 @@ article {
   margin: 50px;
 }
 
-#inflation-flexbox header{
+#inflation-flexbox header {
   justify-self: stretch;
   padding-bottom: 20px;
 }
@@ -464,11 +461,11 @@ article {
   max-width: 228px;
 }
 
-#inflation-flexbox figure figcaption span{
+#inflation-flexbox figure figcaption span {
   font-size: 12px;
 }
 
-#inflation-flexbox figure figcaption span strong{
+#inflation-flexbox figure figcaption span strong {
   font-weight: bold;
 }
 
