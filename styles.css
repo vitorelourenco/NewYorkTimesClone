@@ -3,12 +3,9 @@
   src: url("assets/fonts/Chomsky.woff") format("woff");
 }
 
-
 body {
   margin-top: 40px;
   margin-bottom: 50px;
-  margin-left: 0px;
-  margin-right: 0px;
 }
 
 main {
@@ -18,16 +15,16 @@ main {
 }
 
 .nav-buttons {
-    background: rgb(86, 123, 149);
-    color: white;
-    font-weight: bold;
-    padding-right: 15px;
-    padding-left: 15px;
-    padding-top: 5px;
-    padding-bottom: 3px;
-    font-size: 10px;
-    border: 5px solid rgb(86, 123, 149);
-    border-radius: 5px;
+  background: rgb(86, 123, 149);
+  color: white;
+  font-weight: bold;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top: 5px;
+  padding-bottom: 3px;
+  font-size: 10px;
+  border: 5px solid rgb(86, 123, 149);
+  border-radius: 5px;
 }
 
 article {
@@ -40,17 +37,17 @@ article {
   text-align: right;
 }
 
-.padding-left{
+.padding-left {
   padding-left: 20px;
 }
 
-#nav-right{
+#nav-right {
   width: 400px;
   flex-grow: 0;
   text-align:left;
 }
 
-#nav-center{
+#nav-center {
   flex-grow:1;
   text-align: center;
 }
@@ -68,7 +65,7 @@ article {
   align-items: center;
 }
 
-#main-editors-pick{
+#main-editors-pick {
   align-self: stretch;
 }
 
@@ -82,14 +79,14 @@ article {
   margin-right: 15px;
 }
 
-.comment-counter{
+.comment-counter {
   width: 35px;
   height: 33px;
   display: inline;
   padding-left: 10px;
 }
 
-.comment-count{
+.comment-count {
   position: relative;
   font-size:15px;
   left: 7px;
@@ -97,7 +94,7 @@ article {
   z-index: -1;
 }
 
-.back-image{
+.back-image {
   position:absolute;
   z-index: -1;
 }
@@ -242,23 +239,23 @@ article {
   align-items: center;
 }
 
-.tiny-image{
+.tiny-image {
   max-width: 80px;
   margin-right: 10px;
   height: auto;
   float: left;
 }
 
-.inner-grid{
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: auto auto auto;
-    align-items: start;
-    height: 250px;
-    padding: 15px;
+.inner-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto auto auto;
+  align-items: start;
+  height: 250px;
+  padding: 15px;
 }
 
-.foot-link{
+.foot-link {
     align-self: end;
 }
 
@@ -350,7 +347,7 @@ article {
   line-height: 15px;
 }
 
-.footer-column a{
+.footer-column a {
   font-size: 12px;
   display: block;
   padding-top: 10px;
