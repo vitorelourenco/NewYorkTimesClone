@@ -94,10 +94,12 @@ article {
   font-size:15px;
   left: 7px;
   top: -7px;
+  z-index: -1;
 }
 
 .back-image{
   position:absolute;
+  z-index: -1;
 }
 
 .article-text-box {
