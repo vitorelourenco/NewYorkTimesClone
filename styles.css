@@ -82,6 +82,24 @@ article {
   margin-right: 15px;
 }
 
+.comment-counter{
+  width: 35px;
+  height: 33px;
+  display: inline;
+  padding-left: 10px;
+}
+
+.comment-count{
+  position: relative;
+  font-size:15px;
+  left: 7px;
+  top: -7px;
+}
+
+.back-image{
+  position:absolute;
+}
+
 .article-text-box {
   width: 100%;
   max-width: 600px;
@@ -90,7 +108,7 @@ article {
   font-size: 1.25rem;
   line-height: 1.875rem;
   color: #333;
-  font-family: Chomsky, nyt-imperial, georgia, 'times new roman', times, serif;
+  font-family: nyt-imperial, georgia, 'times new roman', times, serif;
   margin-bottom: 0.9375rem;
   padding: 0 10px 0 10px;
 }
