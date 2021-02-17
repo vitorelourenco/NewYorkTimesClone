@@ -280,15 +280,20 @@ article {
 #footer-grid{
   display: grid;
   grid-template-columns: repeat(6, 1fr);
-  grid-template-rows: 100px auto;
+  grid-template-rows: 50px auto 25px;
   margin-left: 15%;
   margin-right: 15%;
   grid-gap: 30px 30px;
 }
 
-#footer-grid-header{
+#footer-grid-header {
   grid-row: 1/2;
   grid-column:1/7;
+}
+
+#footer-grids-footer {
+  grid-row: 3/4;
+  grid-column: 1/7;
 }
 
 .grid-left-subgrid {
