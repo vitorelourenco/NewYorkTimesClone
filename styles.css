@@ -515,9 +515,30 @@ article {
   display: flex;
   width: 100%;
   justify-content: center;
+  margin-bottom: 50px;
 }
 
 #comment-section form {
   width: 100%;
   max-width: 600px;
+}
+
+#comment-section form > div {
+  margin: 20px 10px 20px 10px;
+}
+
+#comment-section [type="submit"] {
+  width: 100%;
+  max-width: 600px;
+}
+
+#comment-section fieldset{
+  border: 1px solid black;
+}
+
+#comment-section textarea{
+  width: 100%;
+  max-width: 600px;
+  height: 100px;
+  resize: none;
 }
