@@ -485,6 +485,55 @@
                 </div>
             </div>
         </main>
+        <section id="comment-section">
+            <form action="www.gogle.com">
+                <div>
+                    <h3>Leave a comment</h3>
+                </div>
+                <div>
+                    <label for="comment-form-username">Name:</label>
+                    <input id="comment-form-username" type="text" name="comment-username" maxlength="20" placeholder="Your name" required>
+                    <label for="comment-form-email">e-mail:</label>
+                    <input id="comment-form-email" type="email" name="comment-useremail" maxlength="20" placeholder="Your e-mail" required>
+                </div>
+                <div>
+                    <div>
+                        <label for="comment-form-textarea">Comment:</label>
+                    </div>
+                    <textarea id="comment-form-textarea" name="comment-usercomment" maxlength="250" required>Type your comment here...</textarea>
+                </div>
+                <div>
+                    <fieldset>
+                        <legend> What is your overall opinion about this article?</legend>
+                        <div>
+                            <label for="comment-opinion-positive">
+                                <input id="comment-opinion-positive" type="radio" name="comment-opinion" value="positive" required>
+                                Positive
+                            </label>
+                        </div>
+                        <div>
+                            <label for="comment-opinion-neutral">
+                                <input id="comment-opinion-neutral" type="radio" name="comment-opinion" value="neutral" required>
+                                Neutral
+                            </label>
+                        </div>
+                        <div>
+                            <label for="comment-opinion-negative">
+                                <input id="comment-opinion-negative" type="radio" name="comment-opinion" value="negative" required>
+                                Negative
+                            </label>
+                        </div>
+                    </fieldset>
+                </div>
+                <div>
+                    <label for="comment-form-subscribe">I want to subscribe to the newsletter</label>
+                    <input id="comment-form-subscribe" type="checkbox" name="comment-subscribe">
+                </div>
+                <div>
+                    <button id="comment-form-send" type="submit">Send</button>
+                </div>
+            </form>
+        </section>
         <div id="grid-other-articles">
             <div class="grid-left-subgrid">
                 <div class="grid-box">
