@@ -493,6 +493,7 @@ article {
   position: relative;
   top: 6px;
   left: 14px;
+  z-index: -1;
 }
 
 #author-and-date {
