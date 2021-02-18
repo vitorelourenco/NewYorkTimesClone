@@ -485,6 +485,43 @@
                 </div>
             </div>
         </main>
+        <section id="comment-section">
+            <form action="www.gogle.com">
+                <h3>Leave a comment</h3>
+                <div>
+                    <label for="comment-form-username">Name:</label>
+                    <input id="comment-form-username" type="text" name="comment-username" maxlength="20" placeholder="Your name" required>
+                    <label for="comment-form-email">e-mail:</label>
+                    <input id="comment-form-email" type="email" name="comment-useremail" maxlength="20" placeholder="Your e-mail" required>
+                </div>
+                <div>
+                    <div>
+                        <label for="comment-form-textarea">Comment:</label>
+                    </div>
+                    <textarea id="comment-form-textarea" name="comment-usercomment" maxlength="250" required>Type your comment here...</textarea>
+                </div>
+                <fieldset style="border: 1px solid black">
+                    <legend> What is your overall opinion about this article?</legend>
+                    <div>
+                        <label for="comment-opinion-positive">Positive</label>
+                        <input id="comment-opinion-positive" type="radio" name="comment-opinion" value="positive" required>
+                    </div>
+                    <div>
+                        <label for="comment-opinion-neutral">Neutral</label>
+                        <input id="comment-opinion-neutral" type="radio" name="comment-opinion" value="neutral" required>
+                    </div>
+                    <div>
+                        <label for="comment-opinion-negative">Negative</label>
+                        <input id="comment-opinion-negative" type="radio" name="comment-opinion" value="negative" required>
+                    </div>
+                </fieldset>
+                <div>
+                    <label for="comment-form-subscribe">I want to subscribe to the newsletter</label>
+                    <input id="comment-form-subscribe" type="checkbox" name="comment-subscribe">
+                </div>
+                <button id="comment-form-send" type="submit">Send</button>
+            </form>
+        </section>
         <div id="grid-other-articles">
             <div class="grid-left-subgrid">
                 <div class="grid-box">
