@@ -521,6 +521,14 @@ article {
 #comment-section form {
   width: 100%;
   max-width: 600px;
+  background: #e2e2e2;
+  border: 1px solid  #e2e2e2;
+  border-radius: 10px;
+}
+
+#comment-section h3{
+  text-align: center;
+  text-decoration: underline;
 }
 
 #comment-section form > div {
@@ -530,6 +538,11 @@ article {
 #comment-section [type="submit"] {
   width: 100%;
   max-width: 600px;
+  background:rgb(86, 123, 149);
+  color: white;
+  border: 1px solid rgb(86, 123, 149);
+  border-radius: 3px;
+  height: 25px;
 }
 
 #comment-section fieldset {
