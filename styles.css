@@ -532,11 +532,11 @@ article {
   max-width: 600px;
 }
 
-#comment-section fieldset{
+#comment-section fieldset {
   border: 1px solid black;
 }
 
-#comment-section textarea{
+#comment-section textarea {
   width: 100%;
   max-width: 600px;
   height: 100px;
